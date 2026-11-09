@@ -30,10 +30,11 @@ app = FastAPI(
     }
 )
 
-DET_MODEL_DIR = r"C:\Users\CodePad\.paddleocr\whl\det\ch\ch_PP-OCRv4_det_infer"
-REC_MODEL_DIR = r"C:\Users\CodePad\Desktop\ocr\faze2_test3\PaddleOCR\inference_model_rec_final6"
-DICT_PATH = r"C:\Users\CodePad\Desktop\ocr\faze2_test3\rec_photos\dict.txt"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
+DET_MODEL_DIR = os.path.join(BASE_DIR, "det")
+REC_MODEL_DIR = os.path.join(BASE_DIR, "rec")
+DICT_PATH = os.path.join(BASE_DIR, "dict.txt")
 ocr_engine = PaddleOCR(
     use_angle_cls=True,
     det_model_dir=DET_MODEL_DIR,
