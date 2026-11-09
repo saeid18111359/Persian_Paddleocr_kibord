@@ -1,2 +1,28 @@
-# Persian_Paddleocr_kibord
-An AI- and OCR-based system designed and developed to detect and extract text from scene images.
+# 🚀 سامانه هوشمند تشخیص و خوانش متن فارسی (Persian OCR)
+
+**طراح و توسعه‌دهنده:** by RACodpad  
+توسعه‌داده شده جهت ارائه در جشنواره خوارزمی و **مسابقات کیبرد-هوش مصنوعی**.
+
+---
+
+## 📋 درباره پروژه
+این سامانه یک API سریع، سبک و بهینه مبتنی بر **FastAPI** و مدل‌های پیشرفته **PaddleOCR** است که برای استخراج و خوانش دقیق متون فارسی از روی تصاویر (اسناد، متون چاپی و ساختار یافته) طراحی و پیاده‌سازی شده است.
+
+---
+
+## 🛠 تکنولوژی‌ها و کتابخانه‌های استفاده‌شده
+* **Python 3.10** - زبان اصلی برنامه‌نویسی
+* **FastAPI & Uvicorn** - پیاده‌سازی سرویس وب و API پرسرعت
+* **PaddleOCR & PaddlePaddle** - موتور قدرتمند یادگیری عمیق و تشخیص متن
+* **OpenCV & NumPy** - پردازش تصویر و مدیریت آرایه‌ها
+* **Hazm (هضم)** - پردازش زبان طبیعی (NLP) و اصلاح و پاکسازی ساختار متن فارسی
+
+---
+
+## ⚙️ راهنمای راه‌اندازی و اجرای لوکال
+از آنجا که وزن‌های مدل هوش مصنوعی به دلیل حجم بالا روی گیت‌هاب قرار ندارند، برای اجرای پروژه روی سیستم خود مراحل زیر را دنبال کنید:
+
+1. **کلون کردن مخزن:**
+   ```bash
+   git clone [https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git)
+   cd YOUR_REPOSITORY_NAME
