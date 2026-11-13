@@ -1,8 +1,8 @@
-fastapi
-uvicorn
-python-multipart
-opencv-python-headless
-numpy
-paddlepaddle
-paddleocr
-hazm
+fastapi==0.136.3
+uvicorn==0.48.0
+python-multipart==0.0.29
+opencv-python-headless==5.0.0.93
+numpy==1.26.4
+paddlepaddle==2.6.2
+paddleocr==2.10.0
+hazm==0.7.0
