@@ -2,7 +2,8 @@
 
 # 🚀 Persian OCR – Intelligent Persian Text Detection and Recognition System
 
-**Designed and Developed by:** Rozhan Agha Alizadeh 
+**Developed by:** Rozhan Agha Alizadeh 
+
 **Event:** Kibord AI Competition
 
 ---
