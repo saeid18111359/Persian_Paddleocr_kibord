@@ -1,61 +1,61 @@
 [English](README.md) | [فارسی](README.fa.md)
 
-# 🚀 سامانه هوشمند تشخیص و خوانش متن فارسی (Persian OCR)
+# 🚀 Persian OCR – Intelligent Persian Text Detection and Recognition System
 
-**توسعه‌دهنده:** روژان آقاعلیزاده   
-**رویداد:** مسابقات کیبرد – هوش مصنوعی
-
----
-
-## 📋 درباره پروژه
-
-این سامانه یک API سریع و بهینه مبتنی بر **FastAPI** و مدل‌های پیشرفته **PaddleOCR** است که با هدف استخراج و خوانش متن فارسی از تصاویر، به‌ویژه تصاویر تابلوهای ترافیکی، طراحی و پیاده‌سازی شده است.
+**Designed and Developed by:** RA_Codpad  
+**Event:** Kibord AI Competition
 
 ---
 
-## 🛠 تکنولوژی‌ها و کتابخانه‌های استفاده‌شده
+## 📋 About the Project
 
-- **Python 3.10** – زبان اصلی برنامه‌نویسی
-- **FastAPI & Uvicorn** – پیاده‌سازی سرویس وب و API
-- **PaddleOCR & PaddlePaddle** – موتور تشخیص متن مبتنی بر یادگیری عمیق
-- **OpenCV & NumPy** – پردازش تصاویر و مدیریت آرایه‌ها
-- **Hazm** – پردازش زبان طبیعی (NLP) و پاک‌سازی متن فارسی
+Persian OCR is a fast and optimized API built with **FastAPI** and advanced **PaddleOCR** models. It is designed to detect, extract, and recognize Persian text from images, with a particular focus on traffic signs.
 
 ---
 
-## 📥 دریافت پروژه
+## 🛠 Technologies and Libraries
 
-برای دانلود پروژه، دستور زیر را در CMD یا ترمینال اجرا کنید:
+- **Python 3.10** – Main programming language
+- **FastAPI & Uvicorn** – Web service and API development
+- **PaddleOCR & PaddlePaddle** – Deep learning-based text detection and recognition
+- **OpenCV & NumPy** – Image processing and array manipulation
+- **Hazm** – Natural Language Processing (NLP) and Persian text cleaning and normalization
+
+---
+
+## 📥 Download the Project
+
+To download the project, open CMD or a terminal and run the following command:
 
 ```bash
 git clone https://github.com/saeid18111359/Persian_Paddleocr_kibord.git
 ```
 
-همچنین می‌توانید از طریق [صفحه مخزن پروژه در GitHub](https://github.com/saeid18111359/Persian_Paddleocr_kibord) به فایل‌های پروژه دسترسی داشته باشید.
+Alternatively, you can access the project files through the [GitHub repository](https://github.com/saeid18111359/Persian_Paddleocr_kibord).
 
 ---
 
-## ⚙️ نصب پیش‌نیازها
+## ⚙️ Install Dependencies
 
-**۱.** وارد پوشه پروژه شوید:
+**1.** Navigate to the project directory:
 
 ```bash
 cd Persian_Paddleocr_kibord
 ```
 
-**۲.** کتابخانه‌های موردنیاز را با دستور زیر نصب کنید:
+**2.** Install the required libraries using the following command:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-> **نکته:** برای اجرای صحیح پروژه، از **Python 3.10** استفاده کنید.
+> **Note:** Python 3.10 is recommended for running this project.
 
 ---
 
-## ▶️ اجرای برنامه
+## ▶️ Run the Application
 
-پس از نصب کتابخانه‌ها، دستور زیر را اجرا کنید:
+After installing the required dependencies, execute the following command:
 
 ```bash
 python main.py
@@ -63,20 +63,20 @@ python main.py
 
 ---
 
-## 🌐 دسترسی به سامانه
+## 🌐 Access the Application
 
-پس از اجرای برنامه، مرورگر خود را باز کرده و به آدرس زیر مراجعه کنید:
+Once the application is running, open your web browser and navigate to:
 
 [http://127.0.0.1:8090](http://127.0.0.1:8090)
 
-اکنون می‌توانید از رابط کاربری سامانه استفاده کنید.
+You can now use the application's web interface.
 
 ---
 
-## ⏹ بستن برنامه
+## ⏹ Closing the Application
 
-پس از پایان کار، حتماً روی دکمه **«بستن و خروج کامل برنامه»** کلیک کنید تا برنامه به‌طور کامل بسته شده و پورت مورد استفاده آزاد شود.
+When you have finished using the application, click the **"Close and Exit Application"** button to completely shut down the program and release the port.
 
 ---
 
-**با تشکر از توجه شما 🌱**
+**Thank you for your interest in this project! 🌱**
