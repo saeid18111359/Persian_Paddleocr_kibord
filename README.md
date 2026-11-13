@@ -1,4 +1,4 @@
-[🇬🇧 English](README.md) | [🇮🇷 فارسی](README.fa.md)
+[English](README.md) | [فارسی](README.fa.md)
 
 # 🚀 سامانه هوشمند تشخیص و خوانش متن فارسی (Persian OCR)
 
